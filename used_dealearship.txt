@@ -1,0 +1,24 @@
+USED CARS DEALERSHIP
+
+--------------------------
+
+car_model                       VARCHAR(150) -  NOT NULL
+manufacturer                    VARCHAR(150) - NOT NULL
+vin_number                      VARCHAR(17) - (UNIQUE - NOT NULL)
+year                            UNSIGNED SMALLINT
+price                           DECIMAL(9,2) - NOT NULL
+km                              UNSIGNED INT - NOT NULL
+service_history                 TEXT                         
+traction                        VARCHAR(50) - NOT NULL
+engine_dimension                UNSIGNED SMALLINT - NOT NULL
+power_cv                        UNSIGNED SMALLINT - NOT NULL
+poster_path                     TEXT - DEFAULT (url placeholder)
+interior_photos                 TEXT
+general_conditions              TEXT
+optionals                       TEXT
+width_cm                        TINYINT
+lenght_cm                       TINYINT
+height_cm                       TINYINT
+seats                           VARCHAR (10)
+previous_owners                 VARCHAR (10)
+circulation_tax_exemption       TINYINT - DEFAULT (0) 
